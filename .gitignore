@@ -1,0 +1,32 @@
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+# We ignore model weights in git normally, but user might want a sample
+# model/*.h5
+
+# Datasets are usually ignored
+# dataset/train/*
+# dataset/valid/*
+# dataset/test/*
+# !dataset/sample/
